@@ -29,8 +29,11 @@ span.cm-keyword		{ color: #333128; }
 
 /* MISC ---------------------------------------------------------------------- */
 
-.CodeMirror,
-.CodeMirror .CodeMirror-scroll {
+.CodeMirror {
+    line-height: 1.4;
+}
+
+.CodeMirror-scroll {
 	background: #f2eee1;
 	color: #6f6d64;
 }
